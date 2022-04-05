@@ -2,19 +2,20 @@
 The goal for this project is to use python to analyze features within a dataset and create regression models that can be used to predict sales in the future.
 Our Data dictionary is as follows: 
 
-Variable Name |	Description
-Item_Identifier -	Unique product ID
-Item_Weight -	Weight of product
-Item_Fat_Content -	Whether the product is low fat or regular
-Item_Visibility -	The percentage of total display area of all products in a store allocated to the particular product
-Item_Type -	The category to which the product belongs
-Item_MRP -	Maximum Retail Price (list price) of the product
-Outlet_Identifier -	Unique store ID
-Outlet_Establishment_Year -	The year in which store was established
-Outlet_Size -	The size of the store in terms of ground area covered
-Outlet_Location_Type -	The type of area in which the store is located
-Outlet_Type -	Whether the outlet is a grocery store or some sort of supermarket
-Item_Outlet_Sales -	Sales of the product in the particular store. This is the target variable to be predicted.
+dd = {
+    'Item_Identifier' : 'Unique product ID',
+    'Item_Weight' : 'Weight of Product',
+    'Item_Fat_Content' : 'Whether the product is low fat or regular',
+    'Item_Visibility' : 'Percentage of total display area of all products in a store allocated to the particular product',
+    'Item_Type' : 'The category to which the product belongs',
+    'Item_MRP' : 'Maximum retail price (list price) of the product',
+    'Outlet_Identifier' : 'Unique Store ID',
+    'Outlet_Establishment_Year' : 'The year in which the store was established',
+    'Outlet_Size' : 'Size of the store in terms of ground area covered',
+    'Outlet_Location_Type' : 'Type of area in which the store is located',
+    'Outlet_Type' : 'Whether the outlet is a grocery store or some other sort of supermarket',
+    'Item_Outlet_Sales' : 'Sales of the product in the particular store. This is the target variable to be predicted.' 
+}
 
 Fig. 1
 ![image](https://user-images.githubusercontent.com/98555801/161663984-a838c472-1385-4869-ac34-46276db75e53.png)
